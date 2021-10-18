@@ -1,0 +1,34 @@
+header {
+  height: 60px;
+  background-color: var(--rosa-claro);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#cajaBuscador {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50%;
+  border-bottom: 1px solid white;
+}
+
+#buscar {
+  flex-grow: 1;
+  background-color: var(--rosa-claro);
+  outline-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  color: white;
+}
+
+#buscar::placeholder {
+  color: var(--color-claro-buscador);
+}
+
+#lupa {
+  color: white;
+}
