@@ -1,0 +1,11 @@
+.IconoLinkFooter,
+.TextoLinkFooter {
+  color: white;
+}
+
+.ContenedorLinkFooter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}

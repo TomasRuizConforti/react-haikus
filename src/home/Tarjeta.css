@@ -1,0 +1,29 @@
+.cuerpoHaiku {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fotoDePerfil {
+  border-radius: 500%;
+  height: 50px;
+  width: 50px;
+  margin-left: 10px;
+}
+
+.imagenPrincipal {
+  width: 100%;
+}
+
+.tituloHaiku {
+  font-family: var(--fuente-texto);
+  margin-left: 10px;
+}
+
+.fotoYTitulo {
+  display: flex;
+}
+
+.icono {
+  color: grey;
+}

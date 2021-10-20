@@ -1,0 +1,4 @@
+.contenedorTarjetas {
+  display: grid;
+  justify-content: center;
+}

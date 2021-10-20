@@ -24,11 +24,12 @@ body {
 }
 
 .H1 {
+  font-family: var(--fuente-titulo);
   text-align: center;
   border-bottom: 2px solid var(--color-bordes);
 }
 
 .H4 {
-  font-family: var(--fuente-texto);
+  font-family: var(--fuente-titulo);
   border-bottom: 2px solid var(--color-bordes);
 }
