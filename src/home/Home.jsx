@@ -17,6 +17,16 @@ const Home = () => {
           fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
           tituloHaiku="Haiku"
         />
+        <Tarjeta
+          imagen="https://picsum.photos/200/300"
+          fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
+          tituloHaiku="Haiku"
+        />
+        <Tarjeta
+          imagen="https://picsum.photos/200/300"
+          fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
+          tituloHaiku="Haiku"
+        />
       </div>
     </div>
   );
