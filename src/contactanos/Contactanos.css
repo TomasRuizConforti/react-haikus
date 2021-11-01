@@ -1,0 +1,20 @@
+.logo {
+  color: var(--rosa-claro);
+}
+
+p {
+  text-align: center;
+}
+
+.listaLogos {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+}
+
+.logo {
+  margin-right: 1rem;
+  font-size: 32px;
+}

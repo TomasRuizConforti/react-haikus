@@ -8,22 +8,26 @@ const Home = () => {
       <h4 className="H4">Colección</h4>
       <div className="contenedorTarjetas">
         <Tarjeta
-          imagen="https://picsum.photos/200/300"
+          haiku="sdhfudhsfuidshi"
+          imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          imagen="https://picsum.photos/200/300"
+          haiku="sdhfudhsfuidshi"
+          imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          imagen="https://picsum.photos/200/300"
+          haiku="sdhfudhsfuidshi"
+          imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          imagen="https://picsum.photos/200/300"
+          haiku="sdhfudhsfuidshi"
+          imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://randomuser.me/api/portraits/men/32.jpg"
           tituloHaiku="Haiku"
         />

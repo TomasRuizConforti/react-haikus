@@ -2,11 +2,26 @@ import React from "react";
 import "./Tarjeta.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
+import { useState } from "react";
 
-const Tarjeta = ({ imagen, fotoDePerfil, tituloHaiku }) => {
+const Tarjeta = ({ haiku, imagen, fotoDePerfil, tituloHaiku }) => {
+  const[invisible, setInvisible] = useState(true);
+  const cambiarVisibilidad = () => {
+    if(invisible == false){
+      
+    }
+    else if(invisible == true){
+      
+    }
+  }
   return (
-    <div>
-      <img className="imagenPrincipal" src={imagen} alt="/" />
+    <div className="Tarjeta">
+      <div className="imagenTarjeta" onClick={cambiarVisibilidad  }>
+        <p className="haiku" style={{
+					display: invisible ? "none" : "block"
+				}}>{haiku}</p>
+        <img className="imagenPrincipal" src={imagen} alt="/" />
+      </div>
       <div className="cuerpoHaiku">
         <div className="fotoYTitulo">
           <img
