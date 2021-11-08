@@ -4,16 +4,19 @@ import Main from "./components/layout/Main";
 import Footer from "./components/layout/Footer";
 import Home from "./home/Home";
 import Contactanos from "./contactanos/Contactanos";
+import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <Header />
-      <Main>
-        <Home />
-        <Contactanos />
-      </Main>
-      <Footer />
+      <Router>
+        <Header />
+        <Main>
+          <Home />
+          <Contactanos />
+        </Main>
+        <Footer />
+      </Router>
     </>
   );
 }

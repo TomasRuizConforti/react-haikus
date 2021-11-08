@@ -3,7 +3,7 @@ import "./Tarjeta.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShareAlt } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import {motion} from "framer-motion"
+import { motion } from "framer-motion";
 
 const Tarjeta = ({ haiku, imagen, fotoDePerfil, tituloHaiku }) => {
   const [invisible, setInvisible] = useState(true);
@@ -25,7 +25,12 @@ const Tarjeta = ({ haiku, imagen, fotoDePerfil, tituloHaiku }) => {
         >
           {haiku}
         </p>
-        <img className="imagenPrincipal" src={imagen} alt="/" />
+        <motion.img
+          whileTap={{ scale: 0.9 }}
+          className="imagenPrincipal"
+          src={imagen}
+          alt="/"
+        />
       </div>
       <div className="cuerpoHaiku">
         <div className="fotoYTitulo">
