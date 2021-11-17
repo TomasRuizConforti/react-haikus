@@ -15,3 +15,8 @@ footer {
   display: flex;
   justify-content: center;
 }
+
+.hipervinculo {
+  text-decoration: none;
+  color: white;
+}

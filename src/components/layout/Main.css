@@ -1,3 +1,10 @@
 main {
   font-family: var(--fuente-texto);
 }
+.hipervinculo {
+  text-decoration: none;
+}
+
+.H1 {
+  color: black;
+}

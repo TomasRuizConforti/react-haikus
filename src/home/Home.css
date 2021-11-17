@@ -1,4 +1,18 @@
 .contenedorTarjetas {
   display: grid;
+  grid-template-columns: 1fr;
   justify-content: center;
+}
+
+@media (min-width: 600px) {
+  .contenedorTarjetas {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px 2px;
+  }
+}
+@media (min-width: 1000px) {
+  .contenedorTarjetas {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2px 2px;
+  }
 }
