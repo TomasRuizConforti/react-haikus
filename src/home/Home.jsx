@@ -8,49 +8,49 @@ const Home = () => {
       <h4 className="H4">Colección</h4>
       <div className="contenedorTarjetas">
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
         />
         <Tarjeta
-          haiku="sdhfudhsfuidshi"
+          haiku="Haiku"
           imagen="https://picsum.photos/500/300"
           fotoDePerfil="https://developers.google.com/web/images/contributors/petelepage.jpg"
           tituloHaiku="Haiku"
